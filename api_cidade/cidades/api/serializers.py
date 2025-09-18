@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from cidades.models import Municipio, Regiao, UF
+from cidades.models import Regiao
 
 class RegiaoSerializer(serializers.ModelSerializer):
     class Meta:
