@@ -40,11 +40,11 @@ Este projeto é uma API desenvolvida com Django e Django REST Framework para for
 
 | Recurso     | URL Base                | Descrição                             |
 |-------------|-------------------------|----------------------------------------|
-| Regiões     | `/api/regiao/`          | CRUD de regiões                        |
-| UFs         | `/api/uf/`              | Cria UF e popula municípios via IBGE  |
-| Municípios  | `/api/municipio/`       | CRUD de municípios                     |
-| Token       | `/api/token/`           | Geração de access/refresh tokens JWT  |
-| Refresh     | `/api/token/refresh/`   | Atualiza access token via refresh     |
+| Regiões     | `regiao/`          | CRUD de regiões                        |
+| UFs         | `uf/`              | Cria UF e popula municípios via IBGE  |
+| Municípios  | `municipio/`       | CRUD de municípios                     |
+| Token       | `token/`           | Geração de access/refresh tokens JWT  |
+| Refresh     | `token/refresh/`   | Atualiza access token via refresh     |
 
 ---
 
